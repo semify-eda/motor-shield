@@ -2916,7 +2916,7 @@
     (property "Datasheet" "~" (id 3) (at 36.83 41.656 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C431533" (id 4) (at 35.56 40.64 0)
+    (property "LCSC Part #" "" (id 4) (at 35.56 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 11370a88-e322-42cd-91d1-aa1ff91a623b))
