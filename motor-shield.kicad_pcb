@@ -5046,7 +5046,7 @@
     (property "Sheetname" "Power")
     (path "/0e7b2dd9-9964-452e-aea9-a5407953fde9/4a7654b6-0257-4755-ab40-3745f31d191f")
     (attr smd)
-    (fp_text reference "L1" (at 0 -4.3 -90) (layer "F.SilkS")
+    (fp_text reference "L1" (at 0 -4.3 -90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3e30ad28-29c9-4ada-9d49-95a60653de35)
     )
@@ -10203,9 +10203,6 @@
   )
   (gr_text "en/in1_a" (at 96.7 76.4 45) (layer "F.SilkS") (tstamp c9e21717-3b46-498f-ac67-179f5cc8982b)
     (effects (font (size 0.85 0.85) (thickness 0.15)) (justify left))
-  )
-  (gr_text "ENGINEERING SAMPLE" (at 115.9 89.7) (layer "F.SilkS") (tstamp ce268013-9ad5-47c2-8afd-4d70593a9f3e)
-    (effects (font (size 1.6 1.6) (thickness 0.3)))
   )
   (gr_text "nSleep_a" (at 96.4 67.1 45) (layer "F.SilkS") (tstamp d1f46158-6cd6-4f76-bf19-60ac2592d52b)
     (effects (font (size 0.85 0.85) (thickness 0.15)) (justify left))
