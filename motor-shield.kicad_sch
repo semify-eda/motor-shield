@@ -4478,7 +4478,7 @@
     (property "Datasheet" "~" (id 3) (at 86.36 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C25741" (id 4) (at 86.36 104.14 0)
+    (property "LCSC Part #" "" (id 4) (at 86.36 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c4364e4e-f07b-4092-bdce-c66699026edc))
@@ -5445,7 +5445,7 @@
     (property "Datasheet" "~" (id 3) (at 93.98 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C25741" (id 4) (at 93.98 104.14 0)
+    (property "LCSC Part #" "" (id 4) (at 93.98 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6dd7abb2-6601-4c3f-b31e-5afb9d1ee85a))
@@ -6652,7 +6652,7 @@
       (reference "JP20") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/0e7b2dd9-9964-452e-aea9-a5407953fde9/4a7654b6-0257-4755-ab40-3745f31d191f"
-      (reference "L1") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_Sunlord_MWSA06xxS")
+      (reference "L1") (unit 1) (value "22uH") (footprint "_my:L_YSPI0630A")
     )
     (path "/bb2a5a25-e02c-4b60-8e67-3dea4c6c2086"
       (reference "Q1") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
