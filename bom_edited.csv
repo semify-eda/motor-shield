@@ -8,11 +8,11 @@ C20,CP_Elec_6.3x7.7,1,100u 35V,C2836442
 D1,LED_0603_1608Metric,1,0603_LED,C72043 
 D2,D_SOD-323,1,10V,C353563
 "FID1, FID2, FID3",toolinghole_jlc,3,Toolinghole_jlc,
-"J1, J3","PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal",2,"Phoenix Contact MC 1,5/ 2-G-3,5",C880572
+"J1, J3","PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal",2,"Phoenix Contact MC 1,5/ 2-G-3,5 Receptible",C880572
 J6,PinHeader_2x04_P2.54mm_Vertical_SMD,1,Conn_02x04_Odd_Even,C3294462
 J7,PinSocket_1x04_P2.54mm_Vertical,1,Conn_01x04_f,C2935975
 J9,BarrelJack_Horizontal,1,Barrel_Jack_MountingPin,
-"J10, J11",Plug,2,"Phoenix Contact MC 1,5/ 2-G-3,5",C42701 
+"J10, J11",Plug into J1 and J3!,2,"Phoenix Contact MC 1,5/ 2-G-3,5 Plug",C42701 
 L1,L_YSPI0630A,1,22uH,C497873
 "Q1, Q2",SOT-23,2,AO3400A,C20917
 Q3,TO-252-2,1,AOD4185,C400894
