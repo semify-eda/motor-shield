@@ -81,8 +81,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -512,24 +512,7 @@
       "VM": "rgb(199, 0, 255)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "5V",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "IOREF",
-        "pattern": "IOREF"
-      },
-      {
-        "netclass": "VM",
-        "pattern": "/Power/v_conn"
-      },
-      {
-        "netclass": "VM",
-        "pattern": "VM"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
