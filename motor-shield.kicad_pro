@@ -81,8 +81,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -113,7 +113,7 @@
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
-        "max_error": 0.004,
+        "max_error": 0.002,
         "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
@@ -512,7 +512,20 @@
       "VM": "rgb(199, 0, 255)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "IOREF",
+        "pattern": "IOREF"
+      },
+      {
+        "netclass": "VM",
+        "pattern": "VM"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
