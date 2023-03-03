@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.3,
+          "height": 0.55,
+          "width": 0.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -115,8 +115,8 @@
         "allow_microvias": false,
         "max_error": 0.002,
         "min_clearance": 0.15,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -137,35 +137,35 @@
       "teardrop_options": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 8,
           "td_on_pad_in_zone": false,
-          "td_onpadsmd": true,
-          "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_onpadsmd": false,
+          "td_onroundshapesonly": true,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 8,
+          "td_height_ratio": 0.9,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxlen": 1.5,
           "td_target_name": "td_round_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.7
         },
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_curve_segcount": 8,
+          "td_height_ratio": 0.6,
+          "td_length_ratio": 0.3,
           "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxlen": 1.5,
           "td_target_name": "td_rect_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.5
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 8,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,8 +183,10 @@
         0.4,
         0.44,
         0.5,
+        0.55,
         0.6,
-        0.75
+        0.75,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -514,16 +516,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "5V",
-        "pattern": "+5V"
+        "netclass": "VM",
+        "pattern": "VM"
       },
       {
         "netclass": "IOREF",
         "pattern": "IOREF"
       },
       {
-        "netclass": "VM",
-        "pattern": "VM"
+        "netclass": "5V",
+        "pattern": "+5V"
       }
     ]
   },
