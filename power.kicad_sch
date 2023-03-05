@@ -3410,7 +3410,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 52.07 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f4dd19f-6198-490c-b2cf-90c6e3a41fb1)
     (property "Reference" "JP202" (at 52.07 73.66 0)
       (effects (font (size 1.27 1.27)))
@@ -3642,7 +3642,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 220.98 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3a67f9e6-664b-45ac-9fd3-dbb4f52f6048)
     (property "Reference" "C221" (at 218.44 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3813,7 +3813,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 215.9 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 43db073c-f117-4756-b9a1-f525e140d891)
     (property "Reference" "C220" (at 213.36 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3909,7 +3909,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 255.27 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 489be73b-af02-438f-b9dd-2ac2b71e5e35)
     (property "Reference" "JP201" (at 255.27 40.64 0)
       (effects (font (size 1.27 1.27)))
@@ -4041,10 +4041,10 @@
     (property "Datasheet" "~" (at 36.83 41.656 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "" (at 35.56 40.64 0)
+    (property "LCSC Part #" "C194407" (at 35.56 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "rohs_cert_or_in_datasheet" "" (at 35.56 40.64 0)
+    (property "rohs_cert_or_in_datasheet" "n" (at 35.56 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 11370a88-e322-42cd-91d1-aa1ff91a623b))
@@ -4352,7 +4352,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 226.06 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 70637796-2b4c-47ba-9046-22c4b0de4e53)
     (property "Reference" "C222" (at 223.52 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4510,7 +4510,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 231.14 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 88a660c7-0974-41c8-bc20-c304ea604ef2)
     (property "Reference" "C223" (at 228.6 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4574,7 +4574,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 241.3 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 8cb3d2c3-5b18-41b5-97ea-8d72ef36a6fb)
     (property "Reference" "C225" (at 238.76 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4749,7 +4749,7 @@
   )
 
   (symbol (lib_id "_my:SolderJumper_4") (at 50.8 160.02 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 99d5e315-48a6-496f-a543-6b930c51a20b)
     (property "Reference" "JP203" (at 45.72 163.83 0)
       (effects (font (size 1.27 1.27)))
@@ -5119,7 +5119,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 255.27 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0dfab6c-2684-4e0a-9b01-5431f7a6a0b5)
     (property "Reference" "JP205" (at 255.27 27.94 0)
       (effects (font (size 1.27 1.27)))
@@ -5337,7 +5337,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 137.16 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e157ebe8-7469-48dc-abe3-091e14d63828)
     (property "Reference" "JP204" (at 137.16 44.45 0)
       (effects (font (size 1.27 1.27)))
@@ -5455,7 +5455,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 236.22 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f7039b06-1458-4599-92f3-d8e2798b0c71)
     (property "Reference" "C224" (at 233.68 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
