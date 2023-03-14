@@ -3088,7 +3088,7 @@
     (uuid ff4e3910-2151-4912-8266-ec330d8d1b22)
   )
 
-  (text "Status LEDs" (at 88.9 87.63 0)
+  (text "Status LED" (at 90.17 88.9 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 1ef94826-bfc0-474a-bdab-be7cfc6fe765)
   )

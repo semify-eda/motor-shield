@@ -5772,7 +5772,7 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 1998cf64-f483-4120-af7b-54eeea8b13f1)
   )
-  (text "Track LED" (at 321.31 119.38 0)
+  (text "Track LEDs" (at 321.31 119.38 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 47be04f2-f823-4eb2-956b-860e2b1e56e5)
   )
