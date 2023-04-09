@@ -86,8 +86,8 @@ _TBD_
 
 It is possibile to stack two DCC-EX Motor Shields. There are two different operating modes possible.
 
-  1. Parallel mode: The DCC-EX Motor Shields controlled with the same control signals and both H-bridges are running in parallel. This mode is used to increase the current capabilities. 
-  2. Independent mode: The DCC-EX Motor Shields controlled independently using different control signals. This allows to drive in total 4 independent H-Bridges completely independently.
+1. **Parallel mode:** The DCC-EX Motor Shields controlled with the same control signals and both H-bridges are running in parallel. This mode is used to increase the current capabilities. 
+1. **Independent mode:** The DCC-EX Motor Shields controlled independently using different control signals. This allows to drive in total 4 independent H-Bridges completely independently.
 
 The independent mode uses the following pin assignment for controlling the two channels of the second DCC-EX Motor Shield
 
@@ -113,8 +113,8 @@ To reset the Arduino board a reset button is available.
 
 ## Reference
 
-  - [Schematic](https://github.com/semify-eda/motor-shield/blob/main/motor-shield.pdf)
-  - [DRV8874 Datasheet](https://www.ti.com/product/DRV8874?keyMatch=DRV8874&tisearch=search-everything&usecase=GPN)
+- [Schematic](https://github.com/semify-eda/motor-shield/blob/main/motor-shield.pdf)
+- [DRV8874 Datasheet](https://www.ti.com/product/DRV8874?keyMatch=DRV8874&tisearch=search-everything&usecase=GPN)
 
  
  
