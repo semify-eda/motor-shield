@@ -2,14 +2,38 @@
 
 ## Overview
 
-The DCC-EX Motor Shield is based on two H-bridge motor driver with integrated current sensing feedback to drive inductive loads like releays, solenoids, DC and stepping motors. 
+The DCC-EX Motor Shield is based on two H-bridge motor driver with integrated current sensing feedback to drive inductive loads like releays, solenoids, DC and stepping motors. It is based on the DRV8874 from Texas Instruments (TI).
 
-Powering of Arduino boards is possible due to the 
+Powering of Arduino boards is possible due to the on board DCDC buck converter support a wide input supply range from 9 to 30V. The reverse polarity protection prevents damage to the circuit and its components in case the power supply is accidentally connected with reversed polarity. 
+
+This DCC-EX Motor Shield features a status LED for supply, which provides a visual indication of the power supply status.
 
 
-#### Compatibility
+## Pin Assignment
 
-The DCC-EX Motro Shield  is pin compatible to original Arduino Motor Shield but provides significantly improved elctrical performance for driving higher loads. The supply voltage range is 9-30V (instead of 5-12V) and the maximal peak current is 5A per channel (instead of 2A). 
+The DCC-EX Motro Shield has the following pin assignement for the Arduino header 
+
+Default pin assignment (DRV8874 mode select pin `PMODE` = high)
+
+| Function | Pin |
+|-----------|-------|
+| Channel A | | 
+| Direction | D12
+| PWM       | D3 |
+| Brake     | D9 |
+| Current sensing | A0 |
+| Channel B | | 
+| Direction | D13
+| PWM       | D11 |
+| Brake     | D8 |
+| Current sensing | A1 |
+
+
+
+## Compatibility
+
+The DCC-EX Motro Shield is pin compatible to original Arduino Motor Shield but provides significantly improved elctrical performance for driving higher loads. The supply voltage range is 9-30V (instead of 5-12V) and the maximal peak current is 5A per channel (instead of 2A). 
+
 
 ## Parameter
 
@@ -19,11 +43,17 @@ The DCC-EX Motor Shield provides the following electrical parameter.
 |-----------|-------|
 |Operating volatage range | 9-30V| 
 | Maximal current         | 5A peak |
-| Arduino supply voltage  | VIN pin (7.2V) |
+| Arduino supply voltage output (VIN) | 7.2V |
 | IO voltage              | 3.3 and 5V |
 | I2C connectivity        | Dupont and STEMMA QT Headers |
 | Current sensing         | Yes |
 | Control modes (selected via jumper) | PH/EN, PWM |  
+
+
+## Current sensing 
+
+Current sensing is independendtly available for each channel. The VDDIO supply voltage senseong automatically adjusts the gain factor for the current sensing to take advantage of the full ADC input voltage range. The translation factor is 4.82 A/V.
+
 
 ## Reference
 
