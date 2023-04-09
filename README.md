@@ -16,7 +16,7 @@ The DCC-EX Motor Shield is pin compatible with the original Arduino Motor Shield
 
 The DCC-EX Motor Shield has the following pin assignment for the Arduino header 
 
-Default pin assignment (DRV8874 mode select pin `PMODE` = high)
+Default pin assignment (DRV8874 mode select pin `PMODE` = high) in PWM motor control mode.
 
 | Function | Pin |
 |-----------|-------|
@@ -34,6 +34,26 @@ Default pin assignment (DRV8874 mode select pin `PMODE` = high)
 | Current sensing | A1 |
 
 ### Alternative pin assignment for motor control
+
+The alternative pin assignment for motor control (PH/EN mode) allows to control the motor in a speed and direction type interface. This mode is selected via Jumper J101 (DRV8874 mode select pin `PMODE` = low). 
+
+_TBD_ fix table
+
+| Function | Pin |
+|-----------|-------|
+| Channel A | | 
+| EN | D12 |
+| PH       | D3  |
+| Brake     | D9  |
+| Fault_N   | A4  |
+| Current sensing | A0 |
+| Channel B | | 
+| Direction | D13 |
+| PWM       | D11 |
+| Brake     | D8  |
+| Fault_N   | A5  |
+| Current sensing | A1 |
+
 
 ### Fault indicator 
 
