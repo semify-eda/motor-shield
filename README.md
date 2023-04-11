@@ -2,6 +2,9 @@
 
 ## Overview
 
+![Produktfoto_3_1](https://user-images.githubusercontent.com/52371300/231068292-36178ca7-ed09-493d-87c2-605b19090bf4.jpg)
+
+
 The DCC-EX Motor Shield is based on two H-bridge motor drivers with integrated current sensing feedback to drive inductive loads like relays, solenoids, DC and stepping motors. It is based on the DRV8874 from Texas Instruments (TI).
 
 Powering of Arduino boards is possible due to the on board DCDC buck converter supporting a wide input supply range from 9 to 30V. The reverse polarity protection prevents damage to the circuit and its components in case the power supply is accidentally connected with reversed polarity. 
@@ -105,6 +108,9 @@ _TBD_
 ## Stacking multiple boards
 
 It is possibile to stack two DCC-EX Motor Shields. There are two different operating modes possible.
+
+![Produktfoto_3_4](https://user-images.githubusercontent.com/52371300/231068582-4eb4e3a1-c307-405c-8cc4-71c3db39e954.jpg)
+
 
 1. **Parallel mode:** The DCC-EX Motor Shields controlled with the same control signals and both H-bridges are running in parallel. This mode is used to increase the current capabilities. 
 1. **Independent mode:** The DCC-EX Motor Shields controlled independently using different control signals. This allows to drive in total 4 independent H-Bridges completely independently.
