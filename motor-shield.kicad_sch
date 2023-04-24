@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "Motor Shield")
+    (title "EX-Motorshield8874")
     (date "2023-02-23")
     (rev "RevA")
     (company "semify-eda.com")
@@ -7421,7 +7421,7 @@
   )
 
   (symbol (lib_id "_my:DCC-EX") (at 353.06 261.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 3cd912e2-4766-46af-800a-581f42d09800)
     (property "Reference" "#G101" (at 353.06 249.7536 0)
       (effects (font (size 1.27 1.27)) hide)
