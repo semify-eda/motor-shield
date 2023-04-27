@@ -10,6 +10,8 @@
     (rev "RevA")
     (company "semify-eda.com")
     (comment 1 "Engineer: Erwin Peterlin")
+    (comment 3 "CERN-OHL-W v2 or later")
+    (comment 4 "Licensed under")
   )
 
   (lib_symbols
