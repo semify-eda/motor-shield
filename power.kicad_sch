@@ -5620,7 +5620,7 @@
   (symbol (lib_id "_my:VM") (at 34.29 93.98 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 0d975b09-3142-4559-b474-9fffad0b0a3c)
-    (property "Reference" "#PWR0203" (at 33.02 96.52 0)
+    (property "Reference" "#PWR0208" (at 33.02 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VM" (at 34.29 88.9 0)
@@ -5636,7 +5636,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -5645,7 +5645,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 167.64 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1665d74a-96b0-44c0-96b5-73ebbdf515d8)
-    (property "Reference" "C208" (at 170.18 40.0938 0)
+    (property "Reference" "C201" (at 170.18 40.0938 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u VM" (at 170.18 42.6338 0)
@@ -5668,7 +5668,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C208") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -5695,7 +5695,7 @@
           (reference "#G101") (unit 1)
         )
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#G1") (unit 1)
+          (reference "#G201") (unit 1)
         )
       )
     )
@@ -5704,7 +5704,7 @@
   (symbol (lib_id "_my:VIN") (at 223.52 82.55 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid 17b9db32-b5f3-43f7-978a-e5cffbcb361e)
-    (property "Reference" "#PWR0201" (at 222.25 85.09 0)
+    (property "Reference" "#PWR0206" (at 222.25 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VIN" (at 223.52 78.74 0)
@@ -5720,7 +5720,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -5762,7 +5762,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 100.33 35.56 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f4dd19f-6198-490c-b2cf-90c6e3a41fb1)
-    (property "Reference" "JP204" (at 100.33 29.21 0)
+    (property "Reference" "JP201" (at 100.33 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_o" (at 100.33 31.75 0)
@@ -5782,7 +5782,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "JP204") (unit 1)
+          (reference "JP201") (unit 1)
         )
       )
     )
@@ -5791,7 +5791,7 @@
   (symbol (lib_id "Device:R_Small") (at 72.39 105.41 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 218e70ea-1377-4c4c-8750-52dc90e1c4e7)
-    (property "Reference" "R203" (at 72.39 100.33 90)
+    (property "Reference" "R205" (at 72.39 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470k" (at 72.39 102.87 90)
@@ -5814,7 +5814,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R203") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -5823,7 +5823,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 181.61 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2472bdc8-1b14-46ea-a14e-8df8af8ec504)
-    (property "Reference" "C209" (at 184.15 40.0938 0)
+    (property "Reference" "C202" (at 184.15 40.0938 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u VM" (at 184.15 42.6338 0)
@@ -5846,7 +5846,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C209") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -5887,7 +5887,7 @@
   (symbol (lib_id "power:GND") (at 128.27 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cccbf60-82ed-4cac-8776-f4cfab661b7a)
-    (property "Reference" "#PWR0222" (at 128.27 194.31 0)
+    (property "Reference" "#PWR0221" (at 128.27 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 193.04 0)
@@ -5903,7 +5903,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -5912,7 +5912,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 119.38 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30cb2ecd-fe6f-41e4-baac-c5460b7ab826)
-    (property "Reference" "#FLG0205" (at 119.38 31.115 0)
+    (property "Reference" "#FLG0201" (at 119.38 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 119.38 27.94 0)
@@ -5928,7 +5928,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#FLG0205") (unit 1)
+          (reference "#FLG0201") (unit 1)
         )
       )
     )
@@ -5969,7 +5969,7 @@
   (symbol (lib_id "Device:C_Small") (at 247.65 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 3a67f9e6-664b-45ac-9fd3-dbb4f52f6048)
-    (property "Reference" "C214" (at 245.11 34.29 0)
+    (property "Reference" "C207" (at 245.11 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-" (at 250.19 43.1862 0)
@@ -5992,7 +5992,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C214") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -6001,7 +6001,7 @@
   (symbol (lib_id "Device:C_Small") (at 177.8 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3af00aca-8ff3-4d4d-b45f-dc9e6830205b)
-    (property "Reference" "C205" (at 180.34 105.4162 0)
+    (property "Reference" "C216" (at 180.34 105.4162 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 180.34 107.9562 0)
@@ -6024,7 +6024,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C205") (unit 1)
+          (reference "C216") (unit 1)
         )
       )
     )
@@ -6033,7 +6033,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 231.14 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d81fd93-fd99-4ba5-bbf1-6d9283b62c28)
-    (property "Reference" "#FLG0201" (at 231.14 84.455 0)
+    (property "Reference" "#FLG0204" (at 231.14 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 231.14 81.28 0)
@@ -6049,7 +6049,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#FLG0201") (unit 1)
+          (reference "#FLG0204") (unit 1)
         )
       )
     )
@@ -6058,7 +6058,7 @@
   (symbol (lib_id "Device:C_Small") (at 88.9 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 405cfd77-78d0-409d-9cc8-93eac555afbd)
-    (property "Reference" "C207" (at 91.44 111.7662 0)
+    (property "Reference" "C218" (at 91.44 111.7662 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 91.44 114.3062 0)
@@ -6081,7 +6081,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C207") (unit 1)
+          (reference "C218") (unit 1)
         )
       )
     )
@@ -6090,7 +6090,7 @@
   (symbol (lib_id "_my:VM") (at 167.64 35.56 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 40ef7fe2-f223-4200-81a7-1bc81b9014ae)
-    (property "Reference" "#PWR0212" (at 166.37 38.1 0)
+    (property "Reference" "#PWR0202" (at 166.37 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VM" (at 167.64 30.48 0)
@@ -6106,7 +6106,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0212") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -6115,7 +6115,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 172.72 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43b7a590-4402-4010-a08e-8d62eed956b0)
-    (property "Reference" "#FLG0203" (at 172.72 97.155 0)
+    (property "Reference" "#FLG0205" (at 172.72 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 172.72 93.98 0)
@@ -6131,7 +6131,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#FLG0203") (unit 1)
+          (reference "#FLG0205") (unit 1)
         )
       )
     )
@@ -6140,7 +6140,7 @@
   (symbol (lib_id "Device:C_Small") (at 242.57 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 43db073c-f117-4756-b9a1-f525e140d891)
-    (property "Reference" "C213" (at 240.03 34.29 0)
+    (property "Reference" "C206" (at 240.03 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-" (at 245.11 43.1862 0)
@@ -6163,7 +6163,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C213") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -6204,7 +6204,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47fcef79-f186-48be-9a2a-792c8a7bb7b4)
-    (property "Reference" "C206" (at 190.5 105.4162 0)
+    (property "Reference" "C217" (at 190.5 105.4162 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 190.5 107.9562 0)
@@ -6227,7 +6227,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C206") (unit 1)
+          (reference "C217") (unit 1)
         )
       )
     )
@@ -6236,13 +6236,13 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 203.2 101.6 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 489be73b-af02-438f-b9dd-2ac2b71e5e35)
-    (property "Reference" "JP202" (at 203.2 95.25 0)
+    (property "Reference" "JP203" (at 203.2 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2" (at 203.2 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (at 203.2 101.6 0)
+    (property "Footprint" "_my:SolderJumper-2_P1.3mm_Bridged" (at 203.2 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 101.6 0)
@@ -6256,7 +6256,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "JP202") (unit 1)
+          (reference "JP203") (unit 1)
         )
       )
     )
@@ -6265,7 +6265,7 @@
   (symbol (lib_id "Device:R_Small") (at 251.46 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48d718d8-82d5-4655-96f3-638e749f71aa)
-    (property "Reference" "R207" (at 255.27 91.44 0)
+    (property "Reference" "R204" (at 255.27 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 255.27 93.98 0)
@@ -6288,7 +6288,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R207") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -6354,7 +6354,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 34.29 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 517c7a27-9ade-4a87-8f0f-22368806c38a)
-    (property "Reference" "J203" (at 34.29 29.21 0)
+    (property "Reference" "J201" (at 34.29 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 34.29 31.75 0)
@@ -6378,7 +6378,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "J203") (unit 1)
+          (reference "J201") (unit 1)
         )
       )
     )
@@ -6387,7 +6387,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51c06848-5211-4793-a017-bc75894da3db)
-    (property "Reference" "C202" (at 36.83 100.3362 0)
+    (property "Reference" "C213" (at 36.83 100.3362 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u VM 0805" (at 36.83 102.8762 0)
@@ -6410,7 +6410,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C202") (unit 1)
+          (reference "C213") (unit 1)
         )
       )
     )
@@ -6419,7 +6419,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 49.53 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55e3ffd2-32f6-4217-8ad5-1374458e3fd8)
-    (property "Reference" "#FLG0204" (at 49.53 45.085 0)
+    (property "Reference" "#FLG0203" (at 49.53 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 54.61 41.91 0)
@@ -6435,7 +6435,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#FLG0204") (unit 1)
+          (reference "#FLG0203") (unit 1)
         )
       )
     )
@@ -6476,7 +6476,7 @@
   (symbol (lib_id "_my:IOREF") (at 48.26 165.1 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 5d073904-ab6f-42df-ab95-0dab9aa4931c)
-    (property "Reference" "#PWR0219" (at 44.45 168.275 0)
+    (property "Reference" "#PWR0218" (at 44.45 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "IOREF" (at 48.26 160.02 0)
@@ -6492,7 +6492,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0219") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -6501,7 +6501,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.33 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66c685af-eefb-472e-9c81-8a435864a9e3)
-    (property "Reference" "R208" (at 102.87 58.4199 0)
+    (property "Reference" "R201" (at 102.87 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 102.87 60.9599 0)
@@ -6524,7 +6524,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R208") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -6533,7 +6533,7 @@
   (symbol (lib_id "Device:C_Small") (at 138.43 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 697c6409-3573-4882-8076-af605f75a790)
-    (property "Reference" "C201" (at 140.97 95.2562 0)
+    (property "Reference" "C212" (at 140.97 95.2562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 140.97 97.7962 0)
@@ -6556,7 +6556,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C201") (unit 1)
+          (reference "C212") (unit 1)
         )
       )
     )
@@ -6597,7 +6597,7 @@
   (symbol (lib_id "power:GND") (at 204.47 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a94eec5-418c-42a2-904e-ffa2efdb751d)
-    (property "Reference" "#PWR0217" (at 204.47 160.02 0)
+    (property "Reference" "#PWR0216" (at 204.47 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 158.75 0)
@@ -6613,7 +6613,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0217") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -6622,7 +6622,7 @@
   (symbol (lib_id "Device:R_Small") (at 146.05 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e4fc731-5344-4c89-bd76-204c61e3a8b3)
-    (property "Reference" "R205" (at 146.05 106.68 90)
+    (property "Reference" "R207" (at 146.05 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 146.05 111.76 90)
@@ -6645,7 +6645,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R205") (unit 1)
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -6654,7 +6654,7 @@
   (symbol (lib_id "power:GND") (at 106.68 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fcbc23b-8ba1-4bd7-b2e3-858240521502)
-    (property "Reference" "#PWR0208" (at 106.68 124.46 0)
+    (property "Reference" "#PWR0213" (at 106.68 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 123.19 0)
@@ -6670,7 +6670,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -6679,7 +6679,7 @@
   (symbol (lib_id "Device:C_Small") (at 252.73 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 70637796-2b4c-47ba-9046-22c4b0de4e53)
-    (property "Reference" "C215" (at 250.19 34.29 0)
+    (property "Reference" "C208" (at 250.19 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-" (at 255.27 43.1862 0)
@@ -6702,7 +6702,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C215") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -6755,7 +6755,7 @@
   (symbol (lib_id "power:GND") (at 34.29 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7703970e-a3a9-49be-9090-49b15925a04b)
-    (property "Reference" "#PWR0205" (at 34.29 115.57 0)
+    (property "Reference" "#PWR0209" (at 34.29 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 114.3 0)
@@ -6771,7 +6771,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -6780,7 +6780,7 @@
   (symbol (lib_id "Device:R_Small") (at 119.38 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ca122e3-4fef-4155-bc15-47fe7a11c879)
-    (property "Reference" "R201" (at 121.92 87.6299 0)
+    (property "Reference" "R202" (at 121.92 87.6299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470k" (at 121.92 90.1699 0)
@@ -6803,7 +6803,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R201") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -6812,7 +6812,7 @@
   (symbol (lib_id "_my:IOREF") (at 204.47 140.97 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 7eba14cf-2b90-44d4-8039-4ee2fb7d55c5)
-    (property "Reference" "#PWR0216" (at 200.66 144.145 0)
+    (property "Reference" "#PWR0215" (at 200.66 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "IOREF" (at 204.47 135.89 0)
@@ -6828,7 +6828,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0216") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -6837,7 +6837,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.81 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 88a660c7-0974-41c8-bc20-c304ea604ef2)
-    (property "Reference" "C216" (at 255.27 34.29 0)
+    (property "Reference" "C209" (at 255.27 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-" (at 260.35 43.1862 0)
@@ -6860,7 +6860,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C216") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -6869,7 +6869,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c07d41c-df77-4836-a483-fa568350699e)
-    (property "Reference" "R206" (at 140.97 114.2999 0)
+    (property "Reference" "R208" (at 140.97 114.2999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k76" (at 140.97 116.8399 0)
@@ -6892,7 +6892,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R206") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -6901,7 +6901,7 @@
   (symbol (lib_id "Device:C_Small") (at 267.97 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 8cb3d2c3-5b18-41b5-97ea-8d72ef36a6fb)
-    (property "Reference" "C218" (at 265.43 34.29 0)
+    (property "Reference" "C211" (at 265.43 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-" (at 270.51 43.1862 0)
@@ -6924,7 +6924,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C218") (unit 1)
+          (reference "C211") (unit 1)
         )
       )
     )
@@ -6994,7 +6994,7 @@
   (symbol (lib_id "_my:VM") (at 191.77 86.36 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 91a04ccc-8533-4fee-9656-00e1a4a38c73)
-    (property "Reference" "#PWR0202" (at 190.5 88.9 0)
+    (property "Reference" "#PWR0207" (at 190.5 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VM" (at 191.77 81.28 0)
@@ -7010,7 +7010,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -7019,7 +7019,7 @@
   (symbol (lib_id "power:GND") (at 251.46 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94130f73-2d16-4d51-a19b-6ca96cfc4329)
-    (property "Reference" "#PWR0215" (at 251.46 118.11 0)
+    (property "Reference" "#PWR0210" (at 251.46 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 116.84 0)
@@ -7035,7 +7035,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0215") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -7044,7 +7044,7 @@
   (symbol (lib_id "Device:R_Small") (at 130.81 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97dc149f-61e9-47b0-bfd6-3cb2915160a7)
-    (property "Reference" "R204" (at 130.81 106.68 90)
+    (property "Reference" "R206" (at 130.81 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 130.81 111.76 90)
@@ -7067,7 +7067,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R204") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -7132,7 +7132,7 @@
   (symbol (lib_id "power:+5V") (at 27.94 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a01c3c3d-4e32-407a-9aca-8ecf06aa0276)
-    (property "Reference" "#PWR0220" (at 27.94 175.26 0)
+    (property "Reference" "#PWR0219" (at 27.94 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 27.94 166.37 0)
@@ -7148,7 +7148,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -7227,7 +7227,7 @@
   (symbol (lib_id "power:GND") (at 177.8 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a688c90c-4d28-4d6c-aec9-826d2a93c7d9)
-    (property "Reference" "#PWR0206" (at 177.8 120.65 0)
+    (property "Reference" "#PWR0211" (at 177.8 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 119.38 0)
@@ -7243,7 +7243,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -7252,7 +7252,7 @@
   (symbol (lib_id "Device:C_Small") (at 53.34 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a96369c6-378d-4562-9775-2e8b674bdf70)
-    (property "Reference" "C203" (at 55.88 100.3362 0)
+    (property "Reference" "C214" (at 55.88 100.3362 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n VM" (at 55.88 102.8762 0)
@@ -7275,7 +7275,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C203") (unit 1)
+          (reference "C214") (unit 1)
         )
       )
     )
@@ -7284,7 +7284,7 @@
   (symbol (lib_id "Device:C_Small") (at 167.64 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abf31334-b96a-4164-9e7b-3bda89fb0727)
-    (property "Reference" "C204" (at 170.18 105.4162 0)
+    (property "Reference" "C215" (at 170.18 105.4162 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 170.18 107.9562 0)
@@ -7307,7 +7307,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C204") (unit 1)
+          (reference "C215") (unit 1)
         )
       )
     )
@@ -7316,7 +7316,7 @@
   (symbol (lib_id "power:GND") (at 88.9 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid addff251-bd9a-4f0a-bb88-0ce316614f7b)
-    (property "Reference" "#PWR0207" (at 88.9 124.46 0)
+    (property "Reference" "#PWR0212" (at 88.9 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 123.19 0)
@@ -7332,7 +7332,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0207") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -7341,7 +7341,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 73.66 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid be687d66-8978-4994-8a71-b9e481bd65a1)
-    (property "Reference" "J201" (at 76.2 41.9099 0)
+    (property "Reference" "J203" (at 76.2 41.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-" (at 76.2 44.4499 0)
@@ -7361,7 +7361,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "J201") (unit 1)
+          (reference "J203") (unit 1)
         )
       )
     )
@@ -7414,7 +7414,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 203.2 88.9 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0dfab6c-2684-4e0a-9b01-5431f7a6a0b5)
-    (property "Reference" "JP201" (at 203.2 82.55 0)
+    (property "Reference" "JP202" (at 203.2 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2_o" (at 203.2 85.09 0)
@@ -7434,7 +7434,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "JP201") (unit 1)
+          (reference "JP202") (unit 1)
         )
       )
     )
@@ -7443,7 +7443,7 @@
   (symbol (lib_id "power:GND") (at 100.33 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5c7dc8c-b679-4f11-a92c-799f7bc013d8)
-    (property "Reference" "#PWR0213" (at 100.33 69.85 0)
+    (property "Reference" "#PWR0205" (at 100.33 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 68.58 0)
@@ -7459,7 +7459,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0213") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -7468,7 +7468,7 @@
   (symbol (lib_id "power:GND") (at 167.64 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca0984a6-f1a8-4b0c-b1eb-0446e6f3149e)
-    (property "Reference" "#PWR0214" (at 167.64 54.61 0)
+    (property "Reference" "#PWR0203" (at 167.64 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 53.34 0)
@@ -7484,7 +7484,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -7493,7 +7493,7 @@
   (symbol (lib_id "power:+3V3") (at 72.39 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce5f05b3-0010-4137-93c4-37e66c802231)
-    (property "Reference" "#PWR0221" (at 72.39 175.26 0)
+    (property "Reference" "#PWR0220" (at 72.39 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 72.39 166.37 0)
@@ -7509,7 +7509,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0221") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -7518,7 +7518,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2594695-b080-47ad-8f1d-9d687a589c80)
-    (property "Reference" "C211" (at 215.9 40.6462 0)
+    (property "Reference" "C204" (at 215.9 40.6462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u VM" (at 215.9 43.1862 0)
@@ -7541,7 +7541,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C211") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -7550,7 +7550,7 @@
   (symbol (lib_id "Device:C_Small") (at 227.33 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3fdaeab-cedf-467d-a393-03b680abe5f5)
-    (property "Reference" "C212" (at 229.87 40.6462 0)
+    (property "Reference" "C205" (at 229.87 40.6462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u VM" (at 229.87 43.1862 0)
@@ -7573,7 +7573,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C212") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -7607,7 +7607,7 @@
   (symbol (lib_id "power:GND") (at 138.43 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e123072e-128b-4ff5-a167-834cce49aa8c)
-    (property "Reference" "#PWR0209" (at 138.43 127 0)
+    (property "Reference" "#PWR0214" (at 138.43 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 125.73 0)
@@ -7623,7 +7623,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -7632,13 +7632,13 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 85.09 105.41 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e157ebe8-7469-48dc-abe3-091e14d63828)
-    (property "Reference" "JP203" (at 85.09 99.06 0)
+    (property "Reference" "JP204" (at 85.09 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Jumper_2" (at 85.09 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (at 85.09 105.41 0)
+    (property "Footprint" "_my:SolderJumper-2_P1.3mm_Bridged" (at 85.09 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.09 105.41 0)
@@ -7652,7 +7652,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "JP203") (unit 1)
+          (reference "JP204") (unit 1)
         )
       )
     )
@@ -7661,7 +7661,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2171e89-9abb-4425-83a2-5a145c65e4cc)
-    (property "Reference" "R202" (at 140.97 88.8999 0)
+    (property "Reference" "R203" (at 140.97 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20R" (at 140.97 91.4399 0)
@@ -7684,7 +7684,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R202") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -7693,7 +7693,7 @@
   (symbol (lib_id "Device:C_Small") (at 199.39 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f08d575f-4ca3-46b8-aaea-c808ce9eabaa)
-    (property "Reference" "C210" (at 201.93 40.6462 0)
+    (property "Reference" "C203" (at 201.93 40.6462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u VM" (at 201.93 43.1862 0)
@@ -7716,7 +7716,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C210") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -7725,7 +7725,7 @@
   (symbol (lib_id "_my:VM") (at 111.76 31.75 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid f5367e76-fa5a-4b51-b147-f3a934a6bc5a)
-    (property "Reference" "#PWR0210" (at 110.49 34.29 0)
+    (property "Reference" "#PWR0201" (at 110.49 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VM" (at 111.76 26.67 0)
@@ -7741,7 +7741,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -7750,7 +7750,7 @@
   (symbol (lib_id "Device:C_Small") (at 262.89 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid f7039b06-1458-4599-92f3-d8e2798b0c71)
-    (property "Reference" "C217" (at 260.35 34.29 0)
+    (property "Reference" "C210" (at 260.35 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-" (at 265.43 43.1862 0)
@@ -7773,7 +7773,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "C217") (unit 1)
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -7782,7 +7782,7 @@
   (symbol (lib_id "_my:IOREF") (at 128.27 157.48 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid f9f64cda-9fdd-4542-bbbe-a1b4651d2eed)
-    (property "Reference" "#PWR0218" (at 124.46 160.655 0)
+    (property "Reference" "#PWR0217" (at 124.46 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "IOREF" (at 128.27 152.4 0)
@@ -7798,7 +7798,7 @@
     (instances
       (project "motor-shield"
         (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
