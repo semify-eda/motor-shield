@@ -13,7 +13,11 @@ This DCC-EX Motor Shield features a status LED for supply, which provides a visu
 
 ### Compatibility with [Arduino Motor Shield Rev3](https://store.arduino.cc/products/arduino-motor-shield-rev3)
 
-The DCC-EX Motor Shield is pin compatible with the original Arduino Motor Shield but provides significantly improved electrical performance for driving higher loads. The supply voltage range is 9-30V (instead of 5-12V) and the maximal peak current is 5A per channel (instead of 2A). 
+The DCC-EX Motor Shield is pin compatible with the original Arduino Motor Shield but provides significantly improved electrical performance for driving higher loads. The supply voltage range is 9-30V (instead of 5-12V) and the maximal peak current is 5A per channel (instead of 2A).
+
+### Availability
+
+If you don't want to manfacture the Motorshield by yourself you can directly order fully assembled Motorshields at [semify](https://www.semify-eda.com/shields-and-pmods).
 
 ## Pin Assignment for motor control
 
